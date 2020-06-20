@@ -1,0 +1,42 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: minmax(0,1fr) minmax(0,3fr) minmax(0,1fr);
+    grid-template-rows: 50px;
+    background: yellow;
+
+}
+
+.header_center{
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header_a{
+    /*border: 1px solid black;
+    */height: 100%;
+    width: 80px;
+    /*text-transform: uppercase;*/
+    position: relative;
+    text-align: center;
+    font-size: 13px;
+    
+    
+}
+
+.icon_1{
+    /* margin: 0 10px; */
+    width: 60%;
+    height: 30px;
+}
+
+.header_a:hover{
+    background-color: white;
+}
+
